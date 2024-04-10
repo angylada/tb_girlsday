@@ -9,12 +9,21 @@
     body {
         margin: 3%;
         font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 20px;
         color: rgba(240,240,240, 0,9); /* Textfarbe */
         
         background-image: url("https://wallpapercave.com/wp/wp6641851.jpg");
         background-repeat: no-repeat;
         background-size: cover;
     }
+    table {
+        background-color: rgba(230,230,255, 0.4);
+        border-width: 1px
+    }
+    th, td {
+        padding: 5px 10px 5px 5px
+    }
+
     .mitHintergrundFarbe {
         background-color: rgba(230,230,255, 0.4);
 
@@ -39,7 +48,6 @@
 </head>
 
 
-
 <body>
   <div class="zentriert mitHintergrundFarbe">
     <h2>Hello, TeamBank!</h2>
@@ -48,19 +56,20 @@
     <p>Ich bin links und <b>ohne</b> Hintergrund</p>
   
     <br>
+    <div>
+      <p>Probiere unterschiedliche Schriftarten aus</p>
+      <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Diese</p>
+      <p style="font-family:'Brush Script MT', serif">Diese</p>
+      <p style="font-family:'Impact', serif">Diese</p>
+      <!-- MEHR: https://web.mit.edu/jmorzins/www/fonts.html -->
+    </div>
     
-    <p>Hier kommt eine Liste mit Bulletpoints:</p>
+    <p>Hier eine Liste mit Bulletpoints:</p>
     <ul>
         <li>Das ist das erste ListenItem</li>
+        <li>Das ist das zweite ListenItem</li>
     </ul>
 
-    <br>
-
-    <p>Hier kommt eine Liste mit Reihenfolge:</p>
-    <ol>
-        <li>Nummer 1</li>
-        <li>Nummer 2</li>
-    </ol>
   </div>
  
 </body>
